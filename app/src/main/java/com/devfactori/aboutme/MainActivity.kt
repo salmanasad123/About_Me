@@ -21,6 +21,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         binding = DataBindingUtil.setContentView(this, R.layout.activity_main)
 
+        // setting the variable in the layout file with our data class instance
         binding.myName = myName
 
         val myLambda = { view: View -> addNickName(view) }
