@@ -5,8 +5,7 @@
     android:layout_height="match_parent"
     tools:context=".Activity1">
 
-    <EditText
-        android:hint="Enter your name"
+    <TextView
         android:id="@+id/et_name"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"/>
